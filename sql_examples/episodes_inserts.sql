@@ -27249,4 +27249,158 @@ VALUES
         19,
         'Reunion Part 3',
         '2025-02-05'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        1,
+        'Welcome to the District',
+        '2010-08-05'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        2,
+        'Disloyal to the Party',
+        '2010-08-12'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        3,
+        'Foreign Relations',
+        '2010-08-19'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        4,
+        'The Grape Stomp of Wrath',
+        '2010-08-26'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        5,
+        'Special Interests',
+        '2010-09-09'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        6,
+        'Securing Homeland',
+        '2010-09-16'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        7,
+        'Perception Gap',
+        '2010-09-23'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        8,
+        'Nation Building',
+        '2010-09-30'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        9,
+        'Party Politics',
+        '2010-10-07'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        10,
+        'Reunion: Part 1',
+        '2010-10-14'
+    ),
+    (
+        (
+            SELECT
+                season_id
+            FROM
+                seasons
+            WHERE
+                series_id = 'RHODC'
+                AND season_number = 1
+        ),
+        11,
+        'Reunion: Part 2',
+        '2010-10-21'
     );
